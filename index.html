@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head> 
+  <!--网页编码--> 
+  <meta charset="utf-8" /> 
+  <!--页面自适应--> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <!--浏览器内核控制--> 
+  <meta name="renderer" content="webkit" /> 
+  <meta http-equiv="Cache-Control" content="no-siteapp" /> 
+  <meta itemprop="name" content="葫芦侠助手Pro"/>
+  <meta name="shareimage" itemprop="image" content="https://s1.ax1x.com/2020/08/24/dsqReg.png" />
+  <!--网站关键词--> 
+  <meta name="keywords" content="葫芦侠|葫芦侠助手" />
+  <!--网站描述--> 
+  <meta name="description" itemprop="description" content="葫芦侠助手Pro" />
+  <meta name="author" content="@0047ol"/>
+  <meta name="copyright" content="©0047ol"/>
+  <!--网站名称--> 
+  <title>葫芦侠助手Pro</title> 
+  <!--网站logo--> 
+  <link rel="shortcut icon" href="https://s1.ax1x.com/2020/08/24/dsqReg.th.png" type="image/png" /> 
+  <!--引入CSS--> 
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css" /> 
+  <link type="text/css" rel="stylesheet" href="https://www.0047ol.com/s5droid/mduistatic.css" /> 
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/materialize-css@0.97.8/dist/css/materialize.min.css" /> 
+  <!--引入JS--> 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
+  <!--Style--> 
+  <style>
+  .content_text{
+	position: relative;
+	padding-top: 30px;
+  }
+  .content_text > img {
+	position: relative;
+	width: 80%;
+	left: 10%;
+  }
+  .content_text > h4 {
+	position: relative;
+	font-size: 22px;
+	text-align: center;
+	width: 100%;
+  }
+  .content_text > p {
+	position: relative;
+	font-size: 16px;
+	color: rgb(100,100,100);
+	text-align: left;
+	width: 80%;
+	left: 10%;
+  }
+  .copyright{
+    box-sizing:border-box;
+	width:100%;
+	height:100px;
+	position:relative
+  }
+  .copyright p{
+	position:absolute;
+	padding:16px 16px;
+	bottom:0;
+    margin:0;
+    overflow:hidden;
+    color:rgba(0,0,0,.38);
+    font-size:13px;
+    line-height:20px;
+    white-space:nowrap;
+    text-overflow:ellipsis
+  }
+  .copyright a{
+	text-decoration: none;
+	font-weight:bold;
+	color:rgba(0,0,0,.40);
+  }
+  .container{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+  }
+  </style> 
+ </head> 
+ <!--主题及强调色--> 
+ <body id="body_content" class="mdui-theme-primary-blue mdui-theme-accent-blue mdui-appbar-with-toolbar"> 
+  <!--应用栏布局--> 
+  <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide"> 
+   <div class="mdui-toolbar mdui-color-white"> 
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#left-drawer',swipe: true,overlay: true}"><i class="mdui-icon material-icons">menu</i></a> 
+    <a href="javascript:;" class="mdui-typo-headline">葫芦侠助手Pro</a> 
+    <div class="mdui-toolbar-spacer"></div> 
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width:24px;height:24px;">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5 c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4 c-0.2-0.4-0.7-2.1,0.2-4.3c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7 c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5 c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C34.3,8.7,27,1.4,18,1.4z">
+	</path>
+    </svg>
+    </a>
+   </div> 
+  </div> 
+  <!--侧滑抽屉布局--> 
+
+	<!--友情链接--> 
+    <li class="mdui-subheader">友情链接</li>
+    <a href="javascript:;" onclick="window.location.href='https://www.mdui.org';">
+    <li class="mdui-list-item mdui-ripple">
+	 <i class="mdui-list-item-icon mdui-icon material-icons">thumb_up</i> 
+     <div class="mdui-list-item-content">MDUI</div>
+	</li> 
+	</a>
+	<a href="javascript:;" onclick="window.location.href='http://0047ol.com/s5droid/';">
+    <li class="mdui-list-item mdui-ripple">
+	 <i class="mdui-list-item-icon mdui-icon material-icons">thumb_up</i> 
+     <div class="mdui-list-item-content">0047ol</div>
+	</li>
+    </a>
+   </ul> 
+   <div class="copyright"> 
+    <p>
+	<br/>&copy;<font class="copyright_year"></font> <a href="#">葫芦侠助手Pro</a>
+	<br/>Powered by <a href="https://www.mdui.org">MDUI</a>
+	</p> 
+   </div> 
+  </div> 
+  <!--桌面端布局--> 
+  <div id="content_l" class="container mdui-valign mdui-hidden-md-down">
+    <div class="mdui-valign mdui-center mdui-color-white mdui-shadow-3" style="margin:50px;padding:10px;width:50%;height:50%;border-radius:10px">
+     <div id="qrcode" class="mdui-center">
+	    <div style="font-size:16px;font-weight:bold;text-align:center;padding-bottom:20px;">请使用手机扫码查看</div>
+	 </div>
+	</div>
+  </div>
+  <!--手机端布局--> 
+  <div id="content_2" class="mdui-color-white mdui-hidden-lg-up" style="padding:0px;"> 
+   <div class="mdui-card-media"> 
+    <div class="mdui-grid-tile mdui-ripple"> 
+     <div id="top_background"> 
+	  <!--封面--> 
+      <div id="top_image" style="width:100%;height:100%;padding:50px;padding-bottom:30px;background:url('https://s1.ax1x.com/2020/08/24/dsXmsf.jpg');background-size:100% 100%;background-repeat:no-repeat;"> 
+       <!--图标--> 
+       <img id="top_app_icon" class="mdui-center mdui-hoverable" style="width:70px;height:70px;border-radius:8px" src="https://s1.ax1x.com/2020/08/24/dsqReg.png" /> 
+       <p style="font-size:20px;color:white;font-weight:bold;text-align:center;position:relative;">葫芦侠助手Pro</p> 
+       <p style="font-size:16px;color:white;font-weight:bold;text-align:center;position:relative;">葫芦侠多功能助手</p> 
+	   <button onclick="window.location.href='https://gushengapp.lanzous.com/tp/iOqn2ft88pa';" class="mdui-btn mdui-ripple mdui-ripple-white mdui-center mdui-text-center" style="color:white;font-weight:bold;text-align:center;position:relative;"><i class="mdui-icon material-icons" style="font-size:16px;">android</i> 下载 v1.0.0</button>
+      </div> 
+     </div> 
+    </div> 
+   </div>
+   <!--介绍内容-->
+   <div id="content_l" style="padding-bottom:50px;"> 
+    <div class="content_text"> 
+     <h4>漂亮的界面</h4> 
+     <p>支持查看葫芦侠主页，个人详情一目了然。</p> 
+     <img class="mdui-shadow-3 mdui-hoverable" style="border-radius:5px;" src="https://s1.ax1x.com/2020/08/24/dshRZq.jpg" /> 
+    </div> 
+    <div class="content_text"> 
+     <h4>一键签到</h4> 
+     <p>更加方便、快捷的一键签到。</p> 
+     <img class="mdui-shadow-3 mdui-hoverable" style="border-radius:5px;" src="https://s1.ax1x.com/2020/08/24/dsh5JU.jpg" /> 
+    </div> 
+    <div class="content_text"> 
+     <h4>快速刷帖</h4> 
+     <p>输入想要刷取的数量，点击开始即可。</p> 
+     <img class="mdui-shadow-3 mdui-hoverable" style="border-radius:5px;" src="https://s1.ax1x.com/2020/08/24/dshbLR.jpg" /> 
+    </div> 
+      <div class="content_text"> 
+     <h4>丰富的功能</h4> 
+     <p>很多新的功能正在开发中... 敬请期待！</p> 
+     <img class="mdui-shadow-3 mdui-hoverable" style="border-radius:5px;" src="https://s1.ax1x.com/2020/08/24/dshXo6.jpg" /> 
+    </div> 
+	 <div class="content_text"> 
+     <h4>关于软件</h4> 
+     <p>
+     <i class="mdui-icon material-icons" style="font-size:18px;">person</i> 开发者：<a href="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=2944482193">2944482193</a><br/>
+     <i class="mdui-icon material-icons" style="font-size:18px;">mail</i> 邮箱：<a href="mailto:2944482193@qq.com">2944482193@qq.com</a>
+	 <br/>
+     <i class="mdui-icon material-icons" style="font-size:18px;">group</i> QQ群：<a href="https://jq.qq.com/?_wv=1027&k=xalk3zcY">暂无</a>
+     </p>	 
+    </div> 
+   </div> 
+  </div>   
+  <!--底部页脚--> 
+  <footer id="footer_content" class="mdui-hidden-lg-up"> 
+   <div id="bottom_copyright" class="mdui-valign mdui-color-grey-50" style="padding:20px;"> 
+    <!--版权信息--> 
+    <div id="bottom_copyright_content" class="mdui-center mdui-text-center mdui-text-color-black-icon" style="font-size:12px;">
+     <div id="beian">本软件纯属技术交流娱乐，请在24小时内卸载本软件！</div>
+     <div id="copyright">Copyright &copy;<font class="copyright_year"></font> <a href="#" onclick="">葫芦侠助手Pro</a> All Rights Reserved</div>
+    </div> 
+   </div> 
+  </footer> 
+  <!--引入JS--> 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/qrcode_js@1.0.0/qrcode.min.js"></script>
+  <!--JS脚本--> 
+  <script type="text/javascript">
+  //限制手机端访问
+  if ($("#qrcode").length > 0) {
+   var qrcode = new QRCode(document.getElementById("qrcode"), {
+       width : 150,
+       height : 150
+   });
+   qrcode.makeCode(window.location.href);
+   }
+   //自动设置年份
+   $(".copyright_year").html(new Date().getFullYear());
+  </script>  
+ </body>
+</html>
